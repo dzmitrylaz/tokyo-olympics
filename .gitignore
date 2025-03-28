@@ -1,26 +1,29 @@
-# macOS system files
-.DS_Store
-.AppleDouble
-.LSOverride
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
 
-# Icon must end with two \r
-Icon
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
 
-# Thumbnails
-._*
+# Virtual Environment
+venv/
+env/
+.env
 
-# Files that might appear in the root of a volume
-.DocumentRevisions-V100
-.fseventsd
-.Spotlight-V100
-.TemporaryItems
-.Trashes
-.VolumeIcon.icns
-.com.apple.timemachine.donotpresent
+# Jupyter Notebook
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
 
-# Directories potentially created on remote AFP share
-.AppleDB
-.AppleDesktop
-Network Trash Folder
-Temporary Items
-.apdisk
+# Project-specific
+# Uncomment if you don't want to track these directories
+# data/
+# exports/
+
+# Testing
+.pytest_cache/
+.coverage
+coverage.xml
+htmlcov/
